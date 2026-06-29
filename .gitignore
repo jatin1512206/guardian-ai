@@ -1,0 +1,22 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+venv/
+.venv/
+env/
+.env
+
+# Node
+node_modules/
+dist/
+build/
+.npm
+*.log
+
+# Databases & local files
+*.db
+checkpoints/*.pt
+checkpoints/*.onnx
+checkpoints/*.tflite
